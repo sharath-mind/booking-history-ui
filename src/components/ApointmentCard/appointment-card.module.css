@@ -1,0 +1,39 @@
+.container {
+  padding: 1rem 0px;
+  background: #F7F7F7;
+  border-radius: 9px;
+  margin: 2rem 0px;
+}
+
+.topButtons,
+.bottomButtons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.content {
+  display: flex;
+  gap: 10px;
+  margin: 2rem 0px;
+  font-size: 14px;
+}
+
+.content div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-self: center;
+}
+
+.content img {
+  width: 84px;
+}
+
+.docName {
+  color: #E97000;
+}
+
+.test {
+  font-weight: 400;
+}

@@ -1,0 +1,17 @@
+.container {
+  padding: 1rem;
+  position: relative;
+}
+
+.backButton {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 2rem);
+}
+
+.appointments {
+  /* overflow-x: scroll;
+  height: calc(100vh - 1rem - 3rem - 3.5rem); */
+}

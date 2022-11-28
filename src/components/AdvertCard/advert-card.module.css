@@ -1,0 +1,11 @@
+.container {
+  background: linear-gradient(96.25deg, #0037C5 8.58%, #08005F 102.54%);
+  border-radius: 9px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+}

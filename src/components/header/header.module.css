@@ -1,0 +1,20 @@
+.title {
+  width: 100%;
+}
+
+.title p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}

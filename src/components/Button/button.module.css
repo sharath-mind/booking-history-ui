@@ -5,7 +5,7 @@
 .button[data-variant="primary-bordered"] {
   cursor: pointer;
   width: fit-content;
-  padding: 0.5em 1em;
+  padding: 0.5em 1.5em;
   color: #FFFFFF;
   border-radius: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -27,6 +27,7 @@
 
 .button[data-variant="plain"] {
   background: linear-gradient(94.33deg, #F1F1F1 22.44%, #F1F1F1 124.46%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 3px -2px 4px #FFFFFF;
   color: #000000;
 }
 
@@ -55,4 +56,14 @@
 .icon {
   fill: inherit;
   margin-bottom: -5px;
+}
+
+@media screen and (max-width: 381px) {
+  .button[data-variant="primary"],
+.button[data-variant="secondary"],
+.button[data-variant="plain"],
+.button[data-variant="plain-bordered"],
+.button[data-variant="primary-bordered"] {
+  padding: 0.5em 1em;
+}
 }

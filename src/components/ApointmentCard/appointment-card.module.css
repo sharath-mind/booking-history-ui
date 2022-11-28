@@ -2,8 +2,8 @@
   padding: 1rem 0px;
   background: #F7F7F7;
   border-radius: 9px;
-  margin: 2rem 0px;
-  max-width: 314px;
+  margin: 2rem auto;
+  max-width: 360px;
 }
 
 .topButtons,
@@ -46,5 +46,6 @@
 @media screen and (max-width: 430px) {
   .container {
     max-width: 100%;
+    margin: 2rem 0px;
   }
 }

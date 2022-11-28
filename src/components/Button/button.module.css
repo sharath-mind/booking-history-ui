@@ -37,7 +37,7 @@
 }
 
 .button[data-variant="plain-bordered"] {
-  background: ##D8D8D800;
+  background: #D8D8D800;
   border: 1px solid #999999;
   color: #000000;
   box-shadow: none;

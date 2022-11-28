@@ -27,7 +27,7 @@ const AppointmentCard = (props) => {
       <div className={style.bottomButtons}>
         <Button value={"RESCHEDULE"} variant={BUTTON_VARIANTS.SECONDARY} />
         <Button value={"CANCEL"} variant={BUTTON_VARIANTS.SECONDARY} />
-        <Button value={"VIEW"} variant={BUTTON_VARIANTS.PLAIN} Icon={EyeIcon} />
+        <Button value={"VIEW"} variant={BUTTON_VARIANTS.PLAIN_BORDERED} Icon={EyeIcon} />
       </div>
     </div>
   );
